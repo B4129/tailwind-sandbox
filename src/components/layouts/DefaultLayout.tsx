@@ -1,7 +1,7 @@
 import React, {FC,} from "react";
 import {Outlet} from "react-router-dom";
-import {SideMenu} from "../ui/Sidemenu";
-import {BaseHeader} from "../ui/Header";
+import {SideMenu} from "../models/Sidemenu";
+import {BaseHeader} from "../models/Header";
 
 
 export const DefaultLayout: FC = () => {
