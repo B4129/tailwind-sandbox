@@ -11,7 +11,7 @@ export type MenuLinkProps = {
 export function MenuLink(props: MenuLinkProps) {
     return (<div className="">
         <Link
-            className="transition-all hover:bg-gray-300 hover:font-semibold flex items-center py-2 px-8 bg-gray-200 text-gray-700 hover:border-r-4 border-gray-400 "
+            className="transition-all hover:bg-gray-200 hover:font-semibold flex items-center py-2 px-8 bg-gray-100 text-gray-700 hover:border-r-4 border-gray-400 "
             to={props.to}>{props.icon} <span className="ml-2">{props.name}</span></Link>
     </div>)
 }
