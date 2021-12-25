@@ -5,7 +5,7 @@ export function SideMenu() {
     return(
     <div className="bg-white w-60 h-screen sticky top-0">
         <nav className="mt-10">
-            {menuLinks && menuLinks.map(link => (<MenuLink name={link.name} to={link.to}/>))}
+            {menuLinks && menuLinks.map(({name,to,icon}) => (<MenuLink name={name} to={to} icon={icon}/>))}
         </nav>
     </div>
     )
