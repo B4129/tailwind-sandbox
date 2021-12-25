@@ -3,7 +3,7 @@ import './App.css';
 import {
     useRoutes
 } from "react-router-dom";
-import {rootPath} from "./routes/routes";
+import {rootPath} from "./routes";
 
 
 function App() {
