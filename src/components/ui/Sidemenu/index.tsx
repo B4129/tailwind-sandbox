@@ -1,5 +1,5 @@
 import React from "react";
-import {MenuLink, menuLinks} from "./MenuLink";
+import {MenuLink, menuLinks} from "./Menulink";
 
 export function SideMenu() {
     return(

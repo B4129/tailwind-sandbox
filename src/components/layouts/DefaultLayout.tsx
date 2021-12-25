@@ -1,6 +1,6 @@
 import React, {FC,} from "react";
 import {Outlet} from "react-router-dom";
-import {SideMenu} from "./SideMenu";
+import {SideMenu} from "../ui/Sidemenu";
 
 
 export const DefaultLayout: FC = () => {
