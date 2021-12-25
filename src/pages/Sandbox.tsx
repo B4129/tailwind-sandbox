@@ -1,9 +1,10 @@
 import React, {FC} from "react";
+import {BaseButton} from "../components/ui/buttons/BaseButton";
 
 export const Sandbox:FC= ({children}) => {
     return (
         <div className="container mx-auto">
-            <span className={"text-inherit"} >サンドボックス</span>
+           <BaseButton />
         </div>
     )
 }

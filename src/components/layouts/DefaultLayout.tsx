@@ -25,14 +25,15 @@ function SideMenu() {
 export const DefaultLayout: FC = () => {
     return (
         <>
-            <div className="flex flex-col bg-gray-100 min-h-screen w-screen ">
-                <div className="flex container ">
-                    <header className="container  mx-auto flex justify-between items-center text-white">aa</header>
+            <div className="flex flex-col bg-gray-100 h-full max-w-screen">
+                <div className="flex flex-item justify-center bg-gray-400"><span>ヘッダー</span></div>
+                <div className="flex flex-item">
                     <SideMenu/>
-                    <main className="w-full ">
+                    <main className=" container w-screen mx-auto flex flex-col  ">
                         <Outlet/>
                     </main>
                 </div>
+                <div className="flex flex-item justify-center bg-gray-400"><span>フッター</span></div>
             </div>
         </>
     );
