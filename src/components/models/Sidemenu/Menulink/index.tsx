@@ -2,7 +2,7 @@ import {Link} from "react-router-dom";
 import React, {ReactElement} from "react";
 import {HiCube, HiHome} from "react-icons/hi";
 
-type MenuLinkProps = {
+export type MenuLinkProps = {
     name: string,
     to: string,
     icon: ReactElement,
