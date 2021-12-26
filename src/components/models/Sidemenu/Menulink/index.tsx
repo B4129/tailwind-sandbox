@@ -10,13 +10,17 @@ export type MenuLinkProps = {
 
 export function MenuLink(props: MenuLinkProps) {
   return (
-    <div className="flex-1 ">
-      {props.icon}
-      <Link
-        className=" transition-all hover:bg-gray-200 hover:font-semibold  bg-gray-100 text-gray-700 hover:border-r-4 border-gray-400 "
-        to={props.to}>
-        {props.name}
-      </Link>
+    <div className="flex-1">
+      <div className="flex flex-row transition-all hover:bg-gray-200 hover:font-semibold  bg-gray-100 text-gray-700 hover:border-r-4 border-gray-400 justify-center h-12 items-center">
+        <div className="flex-none ">
+          <span className="text-2xl ml-auto">{props.icon}</span>
+        </div>
+        <div className="flex-none">
+          <Link className="text-xl" to={props.to}>
+            {props.name}
+          </Link>
+        </div>
+      </div>
     </div>
   );
 }

@@ -2,11 +2,8 @@ import React from 'react';
 
 export const BaseHeader = () => {
   return (
-      <div className="flex-1  bg-gray-900">
-        <div className="flex justify-center">
-          <span className="flex-none text-3xl text-gray-100 mt-3">ヘッダー</span>
+        <div className="flex justify-center items-center bg-gray-900 h-16 shadow-2xl drop-shadow">
+          <span className="text-3xl text-gray-100">ヘッダー</span>
         </div>
-      </div>
-
   );
 };
