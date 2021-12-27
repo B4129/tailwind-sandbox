@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import React, { ReactElement } from 'react';
-import { HiCube, HiHome } from 'react-icons/hi';
+import {HiCube, HiHome, HiUser} from 'react-icons/hi';
 
 export type MenuLinkProps = {
   name: string;
@@ -32,8 +32,13 @@ export const menuLinks = [
     icon: <HiHome />,
   },
   {
-    name: 'サンドボックス',
-    to: '/sandbox',
+    name: 'タイルメニュー',
+    to: '/tile-menu',
     icon: <HiCube />,
+  },
+  {
+    name: 'ユーザーカード',
+    to: '/user-card',
+    icon: <HiUser />,
   },
 ];
