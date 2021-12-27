@@ -1,8 +1,9 @@
 import { DefaultLayout } from '../components/layouts/DefaultLayout';
-import { Sandbox } from '../pages/Sandbox';
+import { TileMenuPage } from '../pages/TileMenuPage';
 
 import { Main } from '../pages/Main';
 import {NoLayout} from "../components/layouts/NoLayout";
+import {UserCardPage} from "../pages/UserCardPage";
 
 export const rootPath = [
   {
@@ -20,8 +21,12 @@ export const rootPath = [
     element: <NoLayout />,
     children: [
       {
-        path: 'sandbox',
-        element: <Sandbox />,
+        path: 'tile-menu',
+        element: <TileMenuPage />,
+      },
+      {
+        path: 'user-card',
+        element: <UserCardPage />,
       },
     ],
   },
