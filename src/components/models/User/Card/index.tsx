@@ -26,9 +26,9 @@ export const UserCard = ()=> {
                     <div className=" text-transparent bg-clip-text bg-gradient-to-b via-gray-500 from-black ">
                         <section>
                             <p>こんにちは！！！！！！！！！！！！！！</p>
-                            <p>私は丸丸株式会社にて１０９３０２１年勤務しており</p>
-                            <p>得意分野はネットワークビジネスです</p>
-                            <p>華恋の経歴と致しましては、</p>
+                            <p>こんにちは！！！！！！！！！！！！！！</p>
+                            <p>こんにちは！！！！！！！！！！！！！！</p>
+                            <p>こんにちは！！！！！！！！！！！！！！</p>
                         </section>
                     </div>
                     <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Garen_13.jpg" className="bg-gradient-to-l opacity" />
